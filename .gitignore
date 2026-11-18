@@ -1,0 +1,42 @@
+
+# Maven build files
+target/
+*.war
+*.jar
+
+# IDE files
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+*.iml
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+config/local.properties
+secrets/
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Local database backups
+*.sql.gz
+*.dump
+*.bak.sql
